@@ -17,7 +17,8 @@ const AddProduct = () => {
     }
  
     return (
-        <div>
+        <section className='addproduct_section'>
+                    <div className='addproduct_container'>
             <form onSubmit={ saveProduct }>
                 <div className="field">
                     <label className="label">Title</label>
@@ -46,6 +47,7 @@ const AddProduct = () => {
                 </div>
             </form>
         </div>
+        </section>
     )
 }
  
