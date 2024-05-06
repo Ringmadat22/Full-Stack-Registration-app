@@ -15,6 +15,7 @@ const AddProduct = () => {
         });
         navigate("/");
     }
+    
  
     return (
         <section className='addproduct_section'>
